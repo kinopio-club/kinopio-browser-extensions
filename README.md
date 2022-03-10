@@ -1,9 +1,9 @@
-## Add to Are.na / Chrome Extension
+# Kinopio Browser Extensions
 
-<img src="/img/preview.png" width="1000">
+Opens the quick capture page and sets default text
+
+<img src="https://us-east-1.linodeobjects.com/kinopio-uploads/DBu2iN5CC5i5f4VOqB2lI/SPPOKY-WITCH.png" width="400">
 
 ### Contributing
 
-PR's welcome! See [CONTRIBUTING](CONTRIBUTING.md).
-
-Adapted from [Add to Are.na]()
+PR's welcome – See [CONTRIBUTING](CONTRIBUTING.md).
