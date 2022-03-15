@@ -4,6 +4,7 @@ const sendMessage = async () => {
   const name = tab.url
   console.log('MSG',tab, name, element)
   // TODO send postmessage nameFromExtension
+  return true
 }
 
 const element = document.querySelector('iframe')
