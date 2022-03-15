@@ -12,8 +12,6 @@
 		"default_popup": "index.html"
 	},
 	"permissions": [
-		"activeTab",
-		"contextMenus"
 	],
 	"host_permissions": [
 	  "https://kinopio.club/",
