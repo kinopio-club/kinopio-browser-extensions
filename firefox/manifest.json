@@ -1,7 +1,8 @@
 {
 	"name": "Kinopio",
 	"description": "Collect and connect your thoughts",
-	"version": "1.0.0",
+  "homepage_url": "https://kinopio.club",
+	"version": "1.0",
 	"manifest_version": 2,
 	"icons": {
 		"16": "assets/icon-16.png",
@@ -10,16 +11,10 @@
 		"128": "assets/icon-128.png"
 	},
 	"browser_action": {
+		"default_title": "Add to Kinopio",
 		"default_popup": "index.html"
 	},
 	"permissions": [
-	],
-	"host_permissions": [
-	  "https://kinopio.club/",
-	  "*://*/*"
-	],
-	"content_security_policy": {
-    "extension_pages": "script-src-elem 'self'; script-src 'self'; object-src 'self'",
-    "sandbox": "sandbox allow-scripts; script-src 'self' 'https://api.kinopio.club/' 'https://kinopio.club/'; object-src 'self'"
-  }
+		"activeTab"
+	]
 }
