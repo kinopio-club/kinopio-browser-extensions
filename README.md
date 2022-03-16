@@ -17,7 +17,7 @@ cd kinopio-extensions
 xcrun safari-web-extension-converter --project-location './safari' ./firefox
 ```
 
-> Unfortunately it looks like Safari extensions cannot currently persist localStorage, which is a blocking bug.
+> Safari extensions cannot persist localStorage on localhost (e.g. on dev)
 
 ### Contributing
 
