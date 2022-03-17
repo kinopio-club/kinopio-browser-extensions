@@ -1,12 +1,12 @@
 # Kinopio Browser Extensions
 
-<img src="https://us-east-1.linodeobjects.com/kinopio-uploads/DBu2iN5CC5i5f4VOqB2lI/SPPOKY-WITCH.png" width="220">
+<img src="https://us-east-1.linodeobjects.com/kinopio-uploads/DBu2iN5CC5i5f4VOqB2lI/SPPOKY-WITCH.png" width="200">
 
 For quickly recording thoughts, inspirations, and urls while you're out making waves on the world wide web.
 
 A simple extension that just opens a pop up with an iframe to [kinopio.club/add](https://kinopio.club/add)
 
-[INSERT VID HERE]
+<img src="https://us-east-1.linodeobjects.com/kinopio-uploads/dPFZjLqbKUlz3Ooa9BviV/safari-extension-beta-cropped.gif" width="400" />
 
 ## Mac/Safari version
 
@@ -17,7 +17,7 @@ cd kinopio-extensions
 xcrun safari-web-extension-converter --project-location './safari' ./firefox
 ```
 
-> Safari extensions cannot persist localStorage on localhost (e.g. on dev)
+> Dev Note: Safari extensions cannot persist localStorage when using kinopio.local or localhost urls
 
 ### Contributing
 
