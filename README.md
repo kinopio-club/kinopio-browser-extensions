@@ -12,6 +12,8 @@ A simple extension that just opens a pop up with an iframe to [kinopio.club/add]
 
 To test with the local `kinopio-client` add to inbox page, change iframe urls to `http://kinopio.local:8080/add`
 
+> Don't forget to change it back to `https://kinopio.club/add` before shipping
+
 ## Firefox
 
 Load local extensions in `about:debugging#/runtime/this-firefox`
