@@ -14,13 +14,21 @@ To test with the local `kinopio-client` add to inbox page, change iframe urls to
 
 > Don't forget to change it back to `https://kinopio.club/add` before shipping
 
-## Firefox
+## [Firefox](https://addons.mozilla.org/en-US/firefox/addon/add-to-kinopio/?utm_source=addons.mozilla.org)
 
 Load local extensions in `about:debugging#/runtime/this-firefox`
 
+Before submission, bump the `version` number up in `manifest.json`
+
 Upload a new version at [Mozilla Addons](https://addons.mozilla.org/en-US/developers/addon/add-to-kinopio/edit)
 
-## Chrome
+## [Chrome](https://chrome.google.com/webstore/detail/kinopio/hodmmkfpchpgmaemlicohlkiigpejakn)
+
+> I use vivaldi for chromium testing, but these staps are basically the same for chrome
+
+Load local extensions in `vivaldi://extensions/`
+
+Before submission, bump the `version` number up in `manifest.json`
 
 Upload a new version on the [Chrome Developer Dashboard](https://chrome.google.com/webstore/devconsole)
 
