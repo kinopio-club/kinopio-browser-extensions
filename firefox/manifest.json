@@ -16,6 +16,13 @@
 		"default_title": "Add to Kinopio",
 		"default_popup": "index.html"
 	},
+	"commands" : {
+		"_execute_browser_action":{
+			"suggested_key":{
+				"default": "Ctrl+Y"
+			}
+		}
+	},
 	"permissions": [
 		"activeTab"
 	]
