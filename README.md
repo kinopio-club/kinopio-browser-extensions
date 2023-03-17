@@ -39,12 +39,14 @@ Build this from the `/firefox` version, using the [safari-web-extension-converte
 But first, in `index.html` remove the background color from the `<iframe>`
 
 ```
-cd kinopio-extensions
+cd kinopio-browser-extensions
 mkdir safari
 xcrun safari-web-extension-converter --macos-only ./firefox
 ```
 
-> If you run into xcrun issues, you may need to [reinstall the xcode command line tools](https://stackoverflow.com/a/34617930/2318064)
+> If you run into xcrun issues, you may need to [reinstall the xcode command line tools](https://stackoverflow.com/a/34617930/2318064). 
+
+> If you get the error 'unable to find utility "safari-web-extension-converter"', run this first: sudo xcode-select -s /Applications/Xcode.app
 
 ### Xcode,
 
@@ -54,6 +56,7 @@ xcrun safari-web-extension-converter --macos-only ./firefox
 - Update the `App Category` to `Productivity`
 - Bump up the `Version` number
 - In the `Build Settings` tab, bump up `Current Project Version` (it's under `Versioning`) to a higher number than the `Marketing Version`
+- Make sure the `Version` and `Build Number` match for both `TARGETS`
 
 <img src="https://us-east-1.linodeobjects.com/kinopio-uploads/hwkIhXICfGeY_UFjaJorQ/xcode-settings.png" />
 
