@@ -20,7 +20,7 @@ Load local extensions in `about:debugging#/runtime/this-firefox`
 
 Before submission, bump the `version` number up in `manifest.json`
 
-Upload a new version at [Mozilla Addons](https://addons.mozilla.org/en-US/developers/addon/add-to-kinopio/edit)
+Upload a new version at [Mozilla Addons](https://addons.mozilla.org/en-US/developers/addon/add-to-kinopio/edit) while signed into firefox account `hi@kinopio.club`
 
 ## [Chrome](https://chrome.google.com/webstore/detail/kinopio/hodmmkfpchpgmaemlicohlkiigpejakn)
 
@@ -30,7 +30,7 @@ Load local extensions in `vivaldi://extensions/`
 
 Before submission, bump the `version` number up in `manifest.json`
 
-Upload a new version on the [Chrome Developer Dashboard](https://chrome.google.com/webstore/devconsole)
+Upload a new version on the [Chrome Developer Dashboard](https://chrome.google.com/webstore/devconsole) while signed into google account pirijan@gmail.com
 
 ## [Mac/Safari version](https://apps.apple.com/us/app/add-to-kinopio/id1614926102?mt=12)
 
