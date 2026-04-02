@@ -20,7 +20,7 @@ Load local extensions in `about:debugging#/runtime/this-firefox`
 
 Before submission, bump the `version` number up in `manifest.json`
 
-Upload a new version at [Mozilla Addons](https://addons.mozilla.org/en-US/developers/addon/add-to-kinopio/edit)
+Upload a new version at [Mozilla Addons](https://addons.mozilla.org/en-US/developers/addon/add-to-kinopio/edit) while signed into firefox account `hi@kinopio.club`
 
 ## [Chrome](https://chrome.google.com/webstore/detail/kinopio/hodmmkfpchpgmaemlicohlkiigpejakn)
 
@@ -30,7 +30,7 @@ Load local extensions in `helium://extensions/`
 
 Before submission, bump the `version` number up in `manifest.json`
 
-Upload a new version on the [Chrome Developer Dashboard](https://chrome.google.com/webstore/devconsole)
+Upload a new version on the [Chrome Developer Dashboard](https://chrome.google.com/webstore/devconsole) while signed into google account pirijan@gmail.com
 
 ## [Mac/Safari version](https://apps.apple.com/us/app/add-to-kinopio/id1614926102?mt=12)
 
@@ -39,12 +39,14 @@ Build this from the `/firefox` version, using the [safari-web-extension-converte
 But first, in `index.html` remove the background color from the `<iframe>`
 
 ```
-cd kinopio-extensions
+cd kinopio-browser-extensions
 mkdir safari
 xcrun safari-web-extension-converter --macos-only ./firefox
 ```
 
-> If you run into xcrun issues, you may need to [reinstall the xcode command line tools](https://stackoverflow.com/a/34617930/2318064)
+> If you run into xcrun issues, you may need to [reinstall the xcode command line tools](https://stackoverflow.com/a/34617930/2318064). 
+
+> If you get the error 'unable to find utility "safari-web-extension-converter"', run this first: sudo xcode-select -s /Applications/Xcode.app
 
 ### Xcode,
 
@@ -54,6 +56,7 @@ xcrun safari-web-extension-converter --macos-only ./firefox
 - Update the `App Category` to `Productivity`
 - Bump up the `Version` number
 - In the `Build Settings` tab, bump up `Current Project Version` (it's under `Versioning`) to a higher number than the `Marketing Version`
+- Make sure the `Version` and `Build Number` match for both `TARGETS`
 
 <img src="https://us-east-1.linodeobjects.com/kinopio-uploads/hwkIhXICfGeY_UFjaJorQ/xcode-settings.png" />
 
