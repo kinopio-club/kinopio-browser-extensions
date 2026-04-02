@@ -36,8 +36,6 @@ Upload a new version on the [Chrome Developer Dashboard](https://chrome.google.c
 
 Build this from the `/firefox` version, using the [safari-web-extension-converter](https://developer.apple.com/documentation/safariservices/safari_web_extensions/converting_a_web_extension_for_safari)
 
-But first, in `index.html` remove the background color from the `<iframe>`
-
 ```
 cd kinopio-browser-extensions
 mkdir safari
@@ -52,7 +50,7 @@ xcrun safari-web-extension-converter --macos-only ./firefox
 
 - Open the project in Xcode
 - Open the project overview
-- Use the dropdown to change the target to `Add to Kinopio (macOS)` version
+- Use the dropdown to change the target to `Add to Kinopio` version
 - Update the `App Category` to `Productivity`
 - Bump up the `Version` number
 - In the `Build Settings` tab, bump up `Current Project Version` (it's under `Versioning`) to a higher number than the `Marketing Version`
@@ -60,7 +58,7 @@ xcrun safari-web-extension-converter --macos-only ./firefox
 
 <img src="https://us-east-1.linodeobjects.com/kinopio-uploads/hwkIhXICfGeY_UFjaJorQ/xcode-settings.png" />
 
-- Use the dropdown to change the target to `Add to Kinopio Extension (macOS)` version
+- Use the dropdown to change the target to `Add to Kinopio Extension` version
 - Bump up the `Version` number to match the one you used earlier
 
 - Press `▶` to build and run the extension
