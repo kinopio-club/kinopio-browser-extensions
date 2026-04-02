@@ -10,7 +10,7 @@ A simple extension that just opens a pop up with an iframe to [kinopio.club/add]
 
 # Develop and Update
 
-To test with the local `kinopio-client` add to inbox page, change iframe urls to `http://kinopio.local:8080/add`
+To test with the local `kinopio-client` add to inbox page, change iframe urls to `https://kinopio.local:8080/add`
 
 > Don't forget to change it back to `https://kinopio.club/add` before shipping
 
@@ -24,9 +24,9 @@ Upload a new version at [Mozilla Addons](https://addons.mozilla.org/en-US/develo
 
 ## [Chrome](https://chrome.google.com/webstore/detail/kinopio/hodmmkfpchpgmaemlicohlkiigpejakn)
 
-> I use vivaldi for chromium testing, but these staps are basically the same for chrome
+> I use helium for chromium testing, but these staps are basically the same for chrome
 
-Load local extensions in `vivaldi://extensions/`
+Load local extensions in `helium://extensions/`
 
 Before submission, bump the `version` number up in `manifest.json`
 
